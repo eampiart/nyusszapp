@@ -1,0 +1,532 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C8841C4F16024977A1D60C01 /* libPods-nyussz.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A76FAAC79A84DB19E8CBF04 /* libPods-nyussz.a */; };
+		EF2113931994165700352592 /* 858-line-chart-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2113921994165700352592 /* 858-line-chart-toolbar@2x.png */; };
+		EF3DCBFB1991274700D772A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3DCBFA1991274700D772A5 /* main.m */; };
+		EF3DCBFE1991274700D772A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3DCBFD1991274700D772A5 /* AppDelegate.m */; };
+		EF3DCC011991274700D772A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF3DCC001991274700D772A5 /* ViewController.m */; };
+		EF3DCC041991274700D772A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF3DCC021991274700D772A5 /* Main.storyboard */; };
+		EF3DCC061991274700D772A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF3DCC051991274700D772A5 /* Images.xcassets */; };
+		EF457EAD199155C600C13F71 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF457EAC199155C600C13F71 /* AdSupport.framework */; };
+		EF4F78FD19977C8E00F65562 /* AnalyticsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F78FC19977C8E00F65562 /* AnalyticsViewController.m */; };
+		EF4F7905199785E700F65562 /* CircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = EF4F7904199785E700F65562 /* CircleView.m */; };
+		EF70BD2419913CD90066D2F9 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD1219913C670066D2F9 /* AudioToolbox.framework */; };
+		EF70BD2519913CD90066D2F9 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD1319913C670066D2F9 /* CFNetwork.framework */; };
+		EF70BD2619913CD90066D2F9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD1419913C670066D2F9 /* CoreGraphics.framework */; };
+		EF70BD2719913CD90066D2F9 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62EE6119912B6000189C73 /* CoreLocation.framework */; };
+		EF70BD2919913CD90066D2F9 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62EE6519912B7700189C73 /* MobileCoreServices.framework */; };
+		EF70BD2A19913CD90066D2F9 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF1055F819912AA000435BD7 /* Parse.framework */; };
+		EF70BD2B19913CD90066D2F9 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD1719913C670066D2F9 /* QuartzCore.framework */; };
+		EF70BD2C19913CD90066D2F9 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD1819913C670066D2F9 /* Security.framework */; };
+		EF70BD2D19913CD90066D2F9 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF62EE6B19912B9000189C73 /* StoreKit.framework */; };
+		EF70BD2E19913CD90066D2F9 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD1A19913C670066D2F9 /* SystemConfiguration.framework */; };
+		EF70BD30199142250066D2F9 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD2F199142250066D2F9 /* Accounts.framework */; };
+		EF70BD32199142340066D2F9 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD31199142340066D2F9 /* libsqlite3.dylib */; };
+		EF70BD34199142480066D2F9 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD33199142480066D2F9 /* Social.framework */; };
+		EF70BD37199145FD0066D2F9 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70BD36199145FD0066D2F9 /* LoginViewController.m */; };
+		EF70BD3A199146130066D2F9 /* SignupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF70BD39199146130066D2F9 /* SignupViewController.m */; };
+		EF70BD3E199152E40066D2F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF70BD3D199152E40066D2F9 /* Foundation.framework */; };
+		EF79ED4619917A3800F4A936 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF79ED4519917A3800F4A936 /* UIKit.framework */; };
+		EF79ED4819917AEB00F4A936 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF79ED4719917AEB00F4A936 /* OpenGLES.framework */; };
+		EF79ED4B19917B2700F4A936 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF79ED4919917B2700F4A936 /* CoreImage.framework */; };
+		EF79ED4C19917B2700F4A936 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF79ED4A19917B2700F4A936 /* CoreVideo.framework */; };
+		EF7C7DCF19917D4100D28CC7 /* libz.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EF7C7DCE19917D4100D28CC7 /* libz.1.dylib */; };
+		EF7C7DD11992977300D28CC7 /* nyusszogi.png in Resources */ = {isa = PBXBuildFile; fileRef = EF7C7DD01992977300D28CC7 /* nyusszogi.png */; };
+		EFA56C561995108E0031808C /* FBMissingSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA56C551995108E0031808C /* FBMissingSymbols.m */; };
+		EFA95705199385060000CAF0 /* signout.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA95704199385060000CAF0 /* signout.png */; };
+		EFA95707199385320000CAF0 /* history.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA95706199385320000CAF0 /* history.png */; };
+		EFA9570D19938FA20000CAF0 /* HistoryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA9570C19938FA20000CAF0 /* HistoryTableViewController.m */; };
+		EFA957101993977C0000CAF0 /* 728-clock-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA9570E1993977C0000CAF0 /* 728-clock-toolbar@2x.png */; };
+		EFA957111993977C0000CAF0 /* 896-road-sign-toolbar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA9570F1993977C0000CAF0 /* 896-road-sign-toolbar@2x.png */; };
+		EFA957141993B3CC0000CAF0 /* NSDate+MinimalTimeAgo.m in Sources */ = {isa = PBXBuildFile; fileRef = EFA957131993B3CC0000CAF0 /* NSDate+MinimalTimeAgo.m */; };
+		EFA957161993D0350000CAF0 /* bgimg.png in Resources */ = {isa = PBXBuildFile; fileRef = EFA957151993D0350000CAF0 /* bgimg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5A76FAAC79A84DB19E8CBF04 /* libPods-nyussz.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-nyussz.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF1055F819912AA000435BD7 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		EF2113921994165700352592 /* 858-line-chart-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "858-line-chart-toolbar@2x.png"; sourceTree = "<group>"; };
+		EF3DCBF51991274700D772A5 /* nyussz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nyussz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF3DCBF91991274700D772A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF3DCBFA1991274700D772A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF3DCBFC1991274700D772A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF3DCBFD1991274700D772A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF3DCBFF1991274700D772A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EF3DCC001991274700D772A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EF3DCC031991274700D772A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF3DCC051991274700D772A5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF457EAC199155C600C13F71 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EF4F78FB19977C8E00F65562 /* AnalyticsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AnalyticsViewController.h; sourceTree = "<group>"; };
+		EF4F78FC19977C8E00F65562 /* AnalyticsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AnalyticsViewController.m; sourceTree = "<group>"; };
+		EF4F78FE19977EC700F65562 /* nyussz-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "nyussz-Bridging-Header.h"; sourceTree = "<group>"; };
+		EF4F7903199785E700F65562 /* CircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleView.h; sourceTree = "<group>"; };
+		EF4F7904199785E700F65562 /* CircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleView.m; sourceTree = "<group>"; };
+		EF62EE6119912B6000189C73 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		EF62EE6519912B7700189C73 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		EF62EE6B19912B9000189C73 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EF70BD1019913C4E0066D2F9 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libz.dylib; sourceTree = "<group>"; };
+		EF70BD1219913C670066D2F9 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioToolbox.framework; sourceTree = "<group>"; };
+		EF70BD1319913C670066D2F9 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CFNetwork.framework; sourceTree = "<group>"; };
+		EF70BD1419913C670066D2F9 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreGraphics.framework; sourceTree = "<group>"; };
+		EF70BD1719913C670066D2F9 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = QuartzCore.framework; sourceTree = "<group>"; };
+		EF70BD1819913C670066D2F9 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Security.framework; sourceTree = "<group>"; };
+		EF70BD1A19913C670066D2F9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SystemConfiguration.framework; sourceTree = "<group>"; };
+		EF70BD2F199142250066D2F9 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		EF70BD31199142340066D2F9 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		EF70BD33199142480066D2F9 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		EF70BD35199145FD0066D2F9 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EF70BD36199145FD0066D2F9 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EF70BD38199146130066D2F9 /* SignupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignupViewController.h; sourceTree = "<group>"; };
+		EF70BD39199146130066D2F9 /* SignupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignupViewController.m; sourceTree = "<group>"; };
+		EF70BD3B1991528E0066D2F9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		EF70BD3D199152E40066D2F9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Foundation.framework; sourceTree = "<group>"; };
+		EF79ED4519917A3800F4A936 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UIKit.framework; sourceTree = "<group>"; };
+		EF79ED4719917AEB00F4A936 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenGLES.framework; sourceTree = "<group>"; };
+		EF79ED4919917B2700F4A936 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreImage.framework; sourceTree = "<group>"; };
+		EF79ED4A19917B2700F4A936 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CoreVideo.framework; sourceTree = "<group>"; };
+		EF7C7DCE19917D4100D28CC7 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = usr/lib/libz.1.dylib; sourceTree = SDKROOT; };
+		EF7C7DD01992977300D28CC7 /* nyusszogi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nyusszogi.png; sourceTree = "<group>"; };
+		EFA56C551995108E0031808C /* FBMissingSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBMissingSymbols.m; sourceTree = "<group>"; };
+		EFA95704199385060000CAF0 /* signout.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = signout.png; sourceTree = "<group>"; };
+		EFA95706199385320000CAF0 /* history.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = history.png; sourceTree = "<group>"; };
+		EFA9570B19938FA20000CAF0 /* HistoryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryTableViewController.h; sourceTree = "<group>"; };
+		EFA9570C19938FA20000CAF0 /* HistoryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryTableViewController.m; sourceTree = "<group>"; };
+		EFA9570E1993977C0000CAF0 /* 728-clock-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "728-clock-toolbar@2x.png"; sourceTree = "<group>"; };
+		EFA9570F1993977C0000CAF0 /* 896-road-sign-toolbar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "896-road-sign-toolbar@2x.png"; sourceTree = "<group>"; };
+		EFA957121993B3CC0000CAF0 /* NSDate+MinimalTimeAgo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+MinimalTimeAgo.h"; sourceTree = "<group>"; };
+		EFA957131993B3CC0000CAF0 /* NSDate+MinimalTimeAgo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+MinimalTimeAgo.m"; sourceTree = "<group>"; };
+		EFA957151993D0350000CAF0 /* bgimg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bgimg.png; sourceTree = "<group>"; };
+		FB8E19F061E748B9AF8485D2 /* Pods-nyussz.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nyussz.xcconfig"; path = "Pods/Pods-nyussz.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF3DCBF21991274700D772A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF7C7DCF19917D4100D28CC7 /* libz.1.dylib in Frameworks */,
+				EF457EAD199155C600C13F71 /* AdSupport.framework in Frameworks */,
+				EF79ED4619917A3800F4A936 /* UIKit.framework in Frameworks */,
+				EF70BD2419913CD90066D2F9 /* AudioToolbox.framework in Frameworks */,
+				EF70BD30199142250066D2F9 /* Accounts.framework in Frameworks */,
+				EF70BD2519913CD90066D2F9 /* CFNetwork.framework in Frameworks */,
+				EF70BD2619913CD90066D2F9 /* CoreGraphics.framework in Frameworks */,
+				EF70BD2719913CD90066D2F9 /* CoreLocation.framework in Frameworks */,
+				EF70BD32199142340066D2F9 /* libsqlite3.dylib in Frameworks */,
+				EF70BD2919913CD90066D2F9 /* MobileCoreServices.framework in Frameworks */,
+				EF70BD2B19913CD90066D2F9 /* QuartzCore.framework in Frameworks */,
+				EF70BD2C19913CD90066D2F9 /* Security.framework in Frameworks */,
+				EF70BD34199142480066D2F9 /* Social.framework in Frameworks */,
+				EF70BD2D19913CD90066D2F9 /* StoreKit.framework in Frameworks */,
+				EF70BD2E19913CD90066D2F9 /* SystemConfiguration.framework in Frameworks */,
+				EF70BD3E199152E40066D2F9 /* Foundation.framework in Frameworks */,
+				EF79ED4B19917B2700F4A936 /* CoreImage.framework in Frameworks */,
+				EF70BD2A19913CD90066D2F9 /* Parse.framework in Frameworks */,
+				EF79ED4819917AEB00F4A936 /* OpenGLES.framework in Frameworks */,
+				EF79ED4C19917B2700F4A936 /* CoreVideo.framework in Frameworks */,
+				C8841C4F16024977A1D60C01 /* libPods-nyussz.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF3DCBEC1991274700D772A5 = {
+			isa = PBXGroup;
+			children = (
+				EF3DCBF71991274700D772A5 /* Nyussz */,
+				EF3DCBF61991274700D772A5 /* Products */,
+				EF62EE6F19912BA400189C73 /* Frameworks */,
+				FB8E19F061E748B9AF8485D2 /* Pods-nyussz.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		EF3DCBF61991274700D772A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF3DCBF51991274700D772A5 /* nyussz.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF3DCBF71991274700D772A5 /* Nyussz */ = {
+			isa = PBXGroup;
+			children = (
+				EF3DCBFC1991274700D772A5 /* AppDelegate.h */,
+				EF3DCBFD1991274700D772A5 /* AppDelegate.m */,
+				EF3DCBFF1991274700D772A5 /* ViewController.h */,
+				EF3DCC001991274700D772A5 /* ViewController.m */,
+				EF3DCC021991274700D772A5 /* Main.storyboard */,
+				EF3DCC051991274700D772A5 /* Images.xcassets */,
+				EF3DCBF81991274700D772A5 /* Supporting Files */,
+				EF70BD35199145FD0066D2F9 /* LoginViewController.h */,
+				EF70BD36199145FD0066D2F9 /* LoginViewController.m */,
+				EF70BD38199146130066D2F9 /* SignupViewController.h */,
+				EF70BD39199146130066D2F9 /* SignupViewController.m */,
+				EFA9570B19938FA20000CAF0 /* HistoryTableViewController.h */,
+				EFA9570C19938FA20000CAF0 /* HistoryTableViewController.m */,
+				EF4F78FB19977C8E00F65562 /* AnalyticsViewController.h */,
+				EF4F78FC19977C8E00F65562 /* AnalyticsViewController.m */,
+				EF4F78FE19977EC700F65562 /* nyussz-Bridging-Header.h */,
+				EF4F7903199785E700F65562 /* CircleView.h */,
+				EF4F7904199785E700F65562 /* CircleView.m */,
+			);
+			path = Nyussz;
+			sourceTree = "<group>";
+		};
+		EF3DCBF81991274700D772A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EFA957121993B3CC0000CAF0 /* NSDate+MinimalTimeAgo.h */,
+				EFA957131993B3CC0000CAF0 /* NSDate+MinimalTimeAgo.m */,
+				EFA957151993D0350000CAF0 /* bgimg.png */,
+				EF7C7DD01992977300D28CC7 /* nyusszogi.png */,
+				EFA95704199385060000CAF0 /* signout.png */,
+				EF2113921994165700352592 /* 858-line-chart-toolbar@2x.png */,
+				EFA95706199385320000CAF0 /* history.png */,
+				EFA9570E1993977C0000CAF0 /* 728-clock-toolbar@2x.png */,
+				EFA9570F1993977C0000CAF0 /* 896-road-sign-toolbar@2x.png */,
+				EF3DCBF91991274700D772A5 /* Info.plist */,
+				EF3DCBFA1991274700D772A5 /* main.m */,
+				EFA56C551995108E0031808C /* FBMissingSymbols.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF62EE6F19912BA400189C73 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF7C7DCE19917D4100D28CC7 /* libz.1.dylib */,
+				EF79ED4919917B2700F4A936 /* CoreImage.framework */,
+				EF79ED4A19917B2700F4A936 /* CoreVideo.framework */,
+				EF79ED4719917AEB00F4A936 /* OpenGLES.framework */,
+				EF79ED4519917A3800F4A936 /* UIKit.framework */,
+				EF457EAC199155C600C13F71 /* AdSupport.framework */,
+				EF70BD3D199152E40066D2F9 /* Foundation.framework */,
+				EF70BD3B1991528E0066D2F9 /* CoreFoundation.framework */,
+				EF70BD33199142480066D2F9 /* Social.framework */,
+				EF70BD31199142340066D2F9 /* libsqlite3.dylib */,
+				EF70BD2F199142250066D2F9 /* Accounts.framework */,
+				EF70BD1219913C670066D2F9 /* AudioToolbox.framework */,
+				EF70BD1319913C670066D2F9 /* CFNetwork.framework */,
+				EF70BD1419913C670066D2F9 /* CoreGraphics.framework */,
+				EF62EE6119912B6000189C73 /* CoreLocation.framework */,
+				EF70BD1019913C4E0066D2F9 /* libz.dylib */,
+				EF62EE6519912B7700189C73 /* MobileCoreServices.framework */,
+				EF1055F819912AA000435BD7 /* Parse.framework */,
+				EF70BD1719913C670066D2F9 /* QuartzCore.framework */,
+				EF70BD1819913C670066D2F9 /* Security.framework */,
+				EF62EE6B19912B9000189C73 /* StoreKit.framework */,
+				EF70BD1A19913C670066D2F9 /* SystemConfiguration.framework */,
+				5A76FAAC79A84DB19E8CBF04 /* libPods-nyussz.a */,
+			);
+			name = Frameworks;
+			path = Nyussz;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF3DCBF41991274700D772A5 /* nyussz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF3DCC151991274700D772A5 /* Build configuration list for PBXNativeTarget "nyussz" */;
+			buildPhases = (
+				9C9B05610E8D4340B9C13E5C /* Check Pods Manifest.lock */,
+				EF3DCBF11991274700D772A5 /* Sources */,
+				EF3DCBF21991274700D772A5 /* Frameworks */,
+				EF3DCBF31991274700D772A5 /* Resources */,
+				1FB29BBCAD2F4CC5A7E7910A /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = nyussz;
+			productName = Nyussz;
+			productReference = EF3DCBF51991274700D772A5 /* nyussz.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF3DCBED1991274700D772A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Petra Donka";
+				TargetAttributes = {
+					EF3DCBF41991274700D772A5 = {
+						CreatedOnToolsVersion = 6.0;
+						DevelopmentTeam = 5695M3F6C8;
+					};
+				};
+			};
+			buildConfigurationList = EF3DCBF01991274700D772A5 /* Build configuration list for PBXProject "Nyussz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF3DCBEC1991274700D772A5;
+			productRefGroup = EF3DCBF61991274700D772A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF3DCBF41991274700D772A5 /* nyussz */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF3DCBF31991274700D772A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA957111993977C0000CAF0 /* 896-road-sign-toolbar@2x.png in Resources */,
+				EF3DCC041991274700D772A5 /* Main.storyboard in Resources */,
+				EFA957101993977C0000CAF0 /* 728-clock-toolbar@2x.png in Resources */,
+				EFA957161993D0350000CAF0 /* bgimg.png in Resources */,
+				EFA95705199385060000CAF0 /* signout.png in Resources */,
+				EF3DCC061991274700D772A5 /* Images.xcassets in Resources */,
+				EFA95707199385320000CAF0 /* history.png in Resources */,
+				EF2113931994165700352592 /* 858-line-chart-toolbar@2x.png in Resources */,
+				EF7C7DD11992977300D28CC7 /* nyusszogi.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FB29BBCAD2F4CC5A7E7910A /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-nyussz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C9B05610E8D4340B9C13E5C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF3DCBF11991274700D772A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFA56C561995108E0031808C /* FBMissingSymbols.m in Sources */,
+				EFA957141993B3CC0000CAF0 /* NSDate+MinimalTimeAgo.m in Sources */,
+				EF70BD37199145FD0066D2F9 /* LoginViewController.m in Sources */,
+				EF3DCC011991274700D772A5 /* ViewController.m in Sources */,
+				EFA9570D19938FA20000CAF0 /* HistoryTableViewController.m in Sources */,
+				EF3DCBFE1991274700D772A5 /* AppDelegate.m in Sources */,
+				EF4F7905199785E700F65562 /* CircleView.m in Sources */,
+				EF4F78FD19977C8E00F65562 /* AnalyticsViewController.m in Sources */,
+				EF3DCBFB1991274700D772A5 /* main.m in Sources */,
+				EF70BD3A199146130066D2F9 /* SignupViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EF3DCC021991274700D772A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF3DCC031991274700D772A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF3DCC131991274700D772A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Petra Donka (HY5QWXJS48)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "B99EE018-3558-44EE-B442-B74FFE1FFCA2";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EF3DCC141991274700D772A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Petra  Donka (5695M3F6C8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "7F9D1033-AA21-442E-B5AB-E263ABB67F47";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF3DCC161991274700D772A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8E19F061E748B9AF8485D2 /* Pods-nyussz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Petra Donka (HY5QWXJS48)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nyussz",
+				);
+				INFOPLIST_FILE = Nyussz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nyussz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "B99EE018-3558-44EE-B442-B74FFE1FFCA2";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nyussz/nyussz-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EF3DCC171991274700D772A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB8E19F061E748B9AF8485D2 /* Pods-nyussz.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Petra  Donka (5695M3F6C8)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nyussz",
+				);
+				INFOPLIST_FILE = Nyussz/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Nyussz",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "7F9D1033-AA21-442E-B5AB-E263ABB67F47";
+				SWIFT_OBJC_BRIDGING_HEADER = "Nyussz/nyussz-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF3DCBF01991274700D772A5 /* Build configuration list for PBXProject "Nyussz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3DCC131991274700D772A5 /* Debug */,
+				EF3DCC141991274700D772A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF3DCC151991274700D772A5 /* Build configuration list for PBXNativeTarget "nyussz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF3DCC161991274700D772A5 /* Debug */,
+				EF3DCC171991274700D772A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF3DCBED1991274700D772A5 /* Project object */;
+}

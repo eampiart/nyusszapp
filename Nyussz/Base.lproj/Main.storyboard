@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6205" systemVersion="14A283o" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="ZCF-UW-pOi">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6198"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with attributes relative to the layout margin" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Nyussz-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController extendedLayoutIncludesOpaqueBars="YES" id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g3y-tQ-Qx5">
+                                <rect key="frame" x="542" y="550" width="38" height="30"/>
+                                <state key="normal" title="Login">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="loginButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UeW-Lq-yat"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OUt-U2-wAe">
+                                <rect key="frame" x="20" y="550" width="53" height="30"/>
+                                <state key="normal" title="Sign up">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="signUpButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WG8-i9-Mlz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="nyusszogi.png" translatesAutoresizingMaskIntoConstraints="NO" id="DMs-JR-dOA">
+                                <rect key="frame" x="150" y="300" width="300" height="300"/>
+                                <gestureRecognizers/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="300" id="0jr-Qc-Ywc"/>
+                                    <constraint firstAttribute="width" secondItem="DMs-JR-dOA" secondAttribute="height" multiplier="1:1" id="1PQ-ip-bz1"/>
+                                    <constraint firstAttribute="width" constant="300" id="PJV-7e-0fe"/>
+                                </constraints>
+                                <variation key="heightClass=compact" misplaced="YES">
+                                    <rect key="frame" x="165" y="150" width="150" height="150"/>
+                                </variation>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="oSA-N9-O4i" appends="YES" id="uSd-Ht-4Gu"/>
+                                </connections>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rUg-AH-A5V">
+                                <rect key="frame" x="164" y="114" width="112" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="A2g-n3-BFg"/>
+                                    <constraint firstAttribute="width" constant="112" id="BtE-NH-kFW"/>
+                                </constraints>
+                                <state key="normal" title="Nyusszantás 👋">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.99990183115005493" green="1" blue="0.99987989664077759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nyusszButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3TH-WK-7AQ"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ry2-Tw-yuD">
+                                <rect key="frame" x="317" y="114" width="126" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Dao-mS-cCu"/>
+                                    <constraint firstAttribute="width" constant="126" id="d7u-Ko-OoZ"/>
+                                </constraints>
+                                <state key="normal" title="Nyusszogtatás 💋">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" red="0.99990183115005493" green="1" blue="0.99987989664077759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <action selector="nyusszogtatasButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Q2Y-O8-BeQ"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.99362760782241821" green="0.88387554883956909" blue="0.93237602710723877" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="g3y-tQ-Qx5" secondAttribute="trailing" constant="20" id="1jW-z0-8hx"/>
+                            <constraint firstAttribute="centerX" secondItem="Ry2-Tw-yuD" secondAttribute="centerX" constant="-80" id="AQX-O3-paJ"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="DMs-JR-dOA" secondAttribute="bottom" id="HHJ-RL-x2K"/>
+                            <constraint firstItem="OUt-U2-wAe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="J2U-j2-od1"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="g3y-tQ-Qx5" secondAttribute="bottom" constant="20" id="UYd-da-NFY"/>
+                            <constraint firstItem="rUg-AH-A5V" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="50" id="dL3-xO-tU4"/>
+                            <constraint firstItem="Ry2-Tw-yuD" firstAttribute="top" secondItem="rUg-AH-A5V" secondAttribute="top" id="dXo-Sw-ENd"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="OUt-U2-wAe" secondAttribute="bottom" constant="20" id="pE5-gR-dXe"/>
+                            <constraint firstAttribute="centerX" secondItem="DMs-JR-dOA" secondAttribute="centerX" id="tWh-wU-Rt0"/>
+                            <constraint firstAttribute="centerX" secondItem="rUg-AH-A5V" secondAttribute="centerX" constant="80" id="xri-y4-aIU"/>
+                        </constraints>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="oSA-N9-O4i" appends="YES" id="ouy-e4-Dtb"/>
+                        </connections>
+                    </view>
+                    <navigationItem key="navigationItem" title="Nyussz" id="wkX-Fz-ayY">
+                        <barButtonItem key="leftBarButtonItem" image="728-clock-toolbar.png" id="tXH-TM-e5B" userLabel="historyButton">
+                            <connections>
+                                <action selector="navBarHistoryButtonPressed:" destination="BYZ-38-t0r" id="wb7-Nd-AiM"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" image="858-line-chart-toolbar.png" id="WHs-hv-q8C">
+                            <connections>
+                                <action selector="navBarChartButtonPressed:" destination="BYZ-38-t0r" id="5de-pQ-6Nm"/>
+                                <segue destination="JpT-CA-fYx" kind="show" id="VPF-zT-cHO"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="logInButton" destination="g3y-tQ-Qx5" id="Fu4-Jw-aAB"/>
+                        <outlet property="nyusszButton" destination="rUg-AH-A5V" id="pMn-JN-Qah"/>
+                        <outlet property="nyusszogiImageView" destination="DMs-JR-dOA" id="b2k-fg-WkL"/>
+                        <outlet property="signUpButton" destination="OUt-U2-wAe" id="7Qp-ZS-Zv9"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer numberOfTapsRequired="3" id="oSA-N9-O4i">
+                    <connections>
+                        <action selector="tripleTapGestureRecognized:" destination="BYZ-38-t0r" id="k8B-Pa-bMn"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="847" y="646"/>
+        </scene>
+        <!--Analytics-->
+        <scene sceneID="EaN-iV-O6L">
+            <objects>
+                <viewController title="Analytics" id="JpT-CA-fYx" customClass="AnalyticsViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qoT-Np-ZXO"/>
+                        <viewControllerLayoutGuide type="bottom" id="TcW-kG-4ul"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="yVy-KD-ITL">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming soon..." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2LL-KG-yUo">
+                                <rect key="frame" x="242" y="289" width="117" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCo-35-71y" userLabel="chartView">
+                                <rect key="frame" x="0.0" y="64" width="600" height="217"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="mCo-35-71y" firstAttribute="leading" secondItem="yVy-KD-ITL" secondAttribute="leadingMargin" constant="-16" id="0hx-t7-b4Q"/>
+                            <constraint firstItem="mCo-35-71y" firstAttribute="top" secondItem="qoT-Np-ZXO" secondAttribute="bottom" id="94J-yH-dLs"/>
+                            <constraint firstItem="2LL-KG-yUo" firstAttribute="top" secondItem="mCo-35-71y" secondAttribute="bottom" constant="8" id="Sjl-k6-Upy"/>
+                            <constraint firstAttribute="centerY" secondItem="2LL-KG-yUo" secondAttribute="centerY" id="Ze0-fv-0To"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="mCo-35-71y" secondAttribute="trailing" constant="-16" id="ihu-Pm-4G5"/>
+                            <constraint firstAttribute="centerX" secondItem="2LL-KG-yUo" secondAttribute="centerX" id="lVf-W4-lDm"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chartView" destination="mCo-35-71y" id="2f0-h1-43w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Oe7-G1-UmY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1653" y="646"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="nIQ-3j-WqQ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="ZCF-UW-pOi" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" alpha="0.5" contentMode="scaleToFill" id="Mkc-5W-Ajy">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.99362760782241821" green="0.88387554883956909" blue="0.93237602710723877" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="yNe-ot-QKP"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GaO-ba-UBi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="155" y="646"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="728-clock-toolbar.png" width="22" height="22"/>
+        <image name="858-line-chart-toolbar.png" width="23" height="10"/>
+        <image name="nyusszogi.png" width="1968" height="1423"/>
+    </resources>
+</document>
